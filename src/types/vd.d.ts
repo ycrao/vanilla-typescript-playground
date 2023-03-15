@@ -1,9 +1,6 @@
 interface VNode {
   /*
-  tag:
-   - div,h1,header,span,...
-   - :text textNode
-   - :html innerHTML
+  tag: div,h1,header,span,...
    */
   readonly tag: string
   props: PropsAttribute

@@ -16,6 +16,9 @@ const vnode: VNode = {
           'color': '#333',
           'font-weight': 600,
           'text-align': 'center'
+        },
+        onClick: () => {
+          alert("Click the header title")
         }
       },
       children: 'Vanilla Typescript Playground'
